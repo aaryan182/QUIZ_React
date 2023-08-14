@@ -1,0 +1,66 @@
+/* Quiz.css */
+
+/* Styling the options */
+
+  
+  .progress-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-10%, -50%);
+    background: conic-gradient(#009688 0%, #009688 );
+    border: 5px solid #ccc;
+  }
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover effect on options */
+li:hover {
+    background-color: #009688;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Active effect on selected option */
+li.active {
+    background-color: #00796b;
+    color: #fff;
+}
+
+/* Style for result section */
+div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the quiz completed message */
+h2 {
+    font-size: 28px;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+/* Styling the score */
+p {
+    font-size: 24px;
+    color: #009688;
+    font-weight: bold;
+}
