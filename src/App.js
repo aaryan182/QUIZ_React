@@ -6,42 +6,42 @@ const App = () => {
 
   const quizQuestions = [
     {
-      question: "Which Indian state is famous for its backwaters, houseboats, and Kathakali dance?",
-      options: ["Kerela", "Goa", "Rajasthan", "Maharashtra"],
-      answer: "Kerela",
+      question: "What does the acronym 'DBMS' stand for?",
+      options: ["Database Management System", "Data Business Management System", "Digital Backend Management System", "Dynamic Binary Management System"],
+      answer: "Database Management System",
     },
     {
-      question: "What is the capital city of India?",
-      options: ["Mumbai", "New Delhi", "Kolkata", "Bangalore"],
-      answer: "New Delhi",
+      question: "Which type of key uniquely identifies each row in a database table?",
+      options: ["Primary Key", "Foreign Key", "Composite Key", "Super Key"],
+      answer: "Primary Key",
     },
     {
-      question: "Which river is known as the 'Ganges' in India?",
-      options: ["Yamuna", "Brahmaputra", "Godavari", "Ganga"],
-      answer: "Ganga",
+      question: "What is the process of combining tables to eliminate redundant data and ensure data integrity called?",
+      options: ["Normalization", "Indexing", "Joining", "Aggregation"],
+      answer: "Normalization",
+    }, 
+    {
+      question: "Which language is used to manipulate and query relational databases?",
+      options: ["Java", "C++", "SQL", "Python"],
+      answer: "SQL",
     },
     {
-      question: "Which Indian cricketer is often referred to as the'God of Cricket'?",
-      options: ["Sachin Tendulkar", "Virat Kholi", "MS Dhoni", "Rahul Dravid"],
-      answer: "Sachin Tendulkar",
+      question: "Which type of join returns only the common records between two tables?",
+      options: ["Inner Join", "Left Join", "Right Join", "Full Outer Join"],
+      answer: "Inner Join",
     },
     {
-      question: "Which mountain range separates India from the rest of Asia?",
-      options: ["The Himalayas", "The Andes", "The Alpes", "The Rockies"],
-      answer: "The Himalayas",
+      question: "What is the purpose of an 'index' in a database?",
+      options: ["To store large binary data", "To define table relationships", "To speed up data retrieval", "To define data types"],
+      answer: "To speed up data retrieval",
     },
     {
-      question: "Which Indian city is famous for its IT industry and is often referred to as the 'Silicon Valley of India'?",
-      options: ["Mumbai", "Hyderabad", "Bengaluru", "Chennai"],
-      answer: "Bengaluru",
+      question: "Which normal form ensures that there are no partial dependencies of non-key attributes on the primary key?",
+      options: ["First Normal Form (1NF)", "Second Normal Form (2NF)", "Third Normal Form (3NF)", "Fourth Normal Form (4NF)"],
+      answer: "Second Normal Form (2NF)",
     },
-    {
-      question: "Who led the non-violent resistance against British colonial rule in India and is often called the 'Father of the Nation'?",
-      options: ["Subhash Chandra Bose", "Mahatama Gandhi", "Bhagat Singh", "Jawaharlal Nehru"],
-      answer: "Mahatama Gandhi",
-    },
-    
-  ];
+];
+
 
 
   return (
