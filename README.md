@@ -1,3 +1,7 @@
+DEMO LINK : https://aaryan182.github.io/QUIZ_React/
+VIDEO LINK : https://github.com/aaryan182/QUIZ_React/assets/73265857/6daee725-a33a-429f-a37b-e2110967eee0
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
